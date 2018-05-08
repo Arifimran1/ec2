@@ -4,7 +4,7 @@
 using namespace std;
 
 map<int, int> cost_v;
-map<int,map<int,map<int,int>>> weight_e;
+map<int,map<int,map<int,int> > > weight_e;
 
 int obj_func(int arr[], int length)
 {
@@ -65,6 +65,7 @@ int main()
     int v, e;
     string fname;
     cout << "input V, E: " << endl;
+    freopen("ip.txt","r",stdin);
     cin >> v >> e;
 
 
